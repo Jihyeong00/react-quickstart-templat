@@ -2,6 +2,6 @@
 
 npm i
 
-npx husky add .husky/pre-push 'npm lint:fix'
+npx husky add .husky/pre-push 'npm run lint:fix'
 
 npx husky add .husky/pre-commit 'npm run formatter'
